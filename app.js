@@ -1,7 +1,7 @@
 // Selecting necessary HTML elements
 let prompt = document.querySelector("#prompt");
 let chatContainer = document.querySelector(".chat-container");
-const api_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${import.meta.env.VITE_API_KEY}`;
+const api_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBuRwDxVko_UZY1wQ94LnhsMkSQFQPJwIg`;
 let imgbtn = document.querySelector("#img");
 let imginput = document.querySelector("#imginput");
 let img = document.querySelector("#img img");
