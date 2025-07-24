@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ChatBot</title>
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
-    <div class="chat-container">
-      <div class="ai-chat-box">
-        <img src="/img/ai2.png" alt="ai-img" id="ai-img" width="8%" />
-        <div class="ai-chat-area">
-          <p><strong>Hello User!</strong> I'm your AI assistant, ready to make your life easier and smarter. Think of me as your personal <span style="color: #ff4500">Jarvis</span> — but cooler. 😉 Just say the word, and I'll handle the rest! 😎🤖
-          </p>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatBot</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="ai-chat-box">
+      <img src="./img/ai2.png" alt="ai-img" id="ai-img" width="8%" />
+      <div class="ai-chat-area">
+        <p><strong>Hello User!</strong> I'm your AI assistant, ready to make your life easier and smarter. Think of me
+          as your personal <span style="color: #ff4500">Jarvis</span> — but cooler. 😉 Just say the word, and I'll
+          handle the rest! 😎🤖
+        </p>
       </div>
     </div>
-    <div class="prompt-container">
-      <input type="text" id="prompt" placeholder="message.." />
-      <button id="img">
-        <img src="/image.svg" alt="img" /><input
-          type="file"
-          name=""
-          id="imginput"
-          hidden
-        />
-      </button>
-      <button id="submit"><img src="/submit.svg" alt="img" /></button>
-    </div>
-    <script src="/app.js"></script>
-  </body>
+  </div>
+  <div class="prompt-container">
+    <input type="text" id="prompt" placeholder="message.." />
+    <button id="img">
+      <img src="./image.svg" alt="img" />
+      <input type="file" id="imginput" hidden />
+    </button>
+    <button id="submit">
+      <img src="./submit.svg" alt="img" />
+    </button>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
 </html>
