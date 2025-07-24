@@ -54,7 +54,7 @@ async function generateResponse(aiChatBox) {
       mime_type: null,
       data: null,
     };
-    img.src = `/image.svg`; // Reset image to default after response
+    img.src = `./image.svg`; // Reset image to default after response
     img.classList.remove("choose-btn-img");
   } catch (error) {
     console.log(error); // Log errors to console if any
@@ -107,9 +107,9 @@ handleChatResponse = (message) => {
   // Create AI loading response box
   setTimeout(() => {
     let html = `
-      <img src="/img/ai2.png" alt="ai-img" id="ai-img" width="8%" />
+      <img src="./img/ai2.png" alt="ai-img" id="ai-img" width="8%" />
       <div class="ai-chat-area">
-        <img src="/img/loading.gif" alt="img" class="load">
+        <img src="./img/loading.gif" alt="img" class="load">
       </div>`;
     let aiChatBox = createChatBox(html, "ai-chat-box");
     chatContainer.appendChild(aiChatBox);
