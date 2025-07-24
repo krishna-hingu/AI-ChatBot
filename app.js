@@ -81,7 +81,7 @@ handleChatResponse = (message) => {
 
   // Create user chat box with message and attached image (if any)
   let html = `
-    <img src="/img/user3.png" alt="user-img" id="user-img" width="10%" />
+    <img src="./img/user3.png" alt="user-img" id="user-img" width="10%" />
     <div class="user-chat-area">
       ${user.message}
       ${
