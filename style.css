@@ -130,6 +130,7 @@ body {
   .ai-chat-box {
     width: 80%;
     left: 0%;
+    margin-top: 5%;
   }
   #ai-img {
     position: absolute;
